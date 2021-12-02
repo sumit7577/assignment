@@ -22,7 +22,7 @@ car_name VARCHAR NOT NULL,
 company_id INTEGER NOT NULL,
 vehical_class VARCHAR NOT NULL,
 registration_number INTEGER UNIQUE NOT NULL,
-model_name VARCHAR NOT NULL,
+model_id INTEGER NOT NULL UNIQUE,
 manufacturer VARCHAR NOT NULL,
 engine_size VARCHAR,
 capacity INTEGER,
@@ -36,9 +36,9 @@ date_due timestamp);
 
 CREATE TABLE assign_car
 (id SERIAL CHECK(id>0) PRIMARY KEY,
-car_name VARCHAR NOT NULL,
+car_id INTEGER NOT NULL UNIQUE,
 branch_id INTEGER NOT NULL,
-FOREIGN KEY(car_name) REFERENCES car_detail(car_name) UNIQUE MATCH SIMPLE
+FOREIGN KEY(car_id) REFERENCES car_detail(id) MATCH SIMPLE
         ON UPDATE NO ACTION ON DELETE CASCADE,
 FOREIGN KEY(branch_id) REFERENCES company_branch(id) MATCH SIMPLE
         ON UPDATE NO ACTION ON DELETE CASCADE);
@@ -49,16 +49,21 @@ CREATE TABLE client_hire
 customer_number INTEGER UNIQUE NOT NULL,
 first_name VARCHAR NOT NULL,
 surname VARCHAR NOT NULL,
+hire_number INTEGER NOT NULL,
 home_address VARCHAR NOT NULL,
 phone_number INTEGER NOT NULL,
 date_of_birth timestamp,
+date_hired timestamp,
 driving_license_number INTEGER NOT NULL,
 rent_period INTEGER NOT NULL,
-car_id INTEGER,
-model_name VARCHAR,
+car_id INTEGER NOT NULL,
+model_id INTEGER UNIQUE NOT NULL,
+staff_id INTEGER NOT NULL,
 FOREIGN KEY(car_id) REFERENCES car_detail(id) MATCH SIMPLE
         ON UPDATE NO ACTION ON DELETE CASCADE,
-FOREIGN KEY(model_name) REFERENCES car_detail(model_name)UNIQUE MATCH SIMPLE
+FOREIGN KEY(staff_id) REFERENCES staff(id) MATCH SIMPLE
+        ON UPDATE NO ACTION ON DELETE CASCADE,
+FOREIGN KEY(model_id) REFERENCES car_detail(model_id) MATCH SIMPLE
         ON UPDATE NO ACTION ON DELETE CASCADE);
 
 
