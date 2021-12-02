@@ -28,7 +28,7 @@ car_name VARCHAR NOT NULL,
 company_id INTEGER NOT NULL,
 vehical_class VARCHAR NOT NULL,
 registration_number INTEGER UNIQUE NOT NULL,
-model_name VARHCHAR NOT NULL UNIQUE,
+model_name VARCHAR NOT NULL UNIQUE,
 manufacturer VARCHAR NOT NULL,
 engine_size VARCHAR,
 capacity INTEGER,
@@ -72,7 +72,7 @@ staff_id INTEGER NOT NULL,
 FOREIGN KEY(car_id) REFERENCES car_detail(id) MATCH SIMPLE
         ON UPDATE NO ACTION ON DELETE CASCADE,
 FOREIGN KEY(staff_id) REFERENCES staff(id) MATCH SIMPLE
-        ON UPDATE NO ACTION ON DELETE CASCADE,
+        ON UPDATE NO ACTION ON DELETE CASCADE);
 
 
 """"The staff table is used to store all the staff that is currently working in gogogo comapny and it store the details of that staff along in which branch currently he is wokring"""
