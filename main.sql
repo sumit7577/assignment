@@ -25,8 +25,7 @@ FOREIGN KEY(company_id) REFERENCES company_branch MATCH SIMPLE
 CREATE TABLE car_detail
 (id SERIAL CHECK(id>0) PRIMARY KEY,
 car_name VARCHAR NOT NULL,
-company_id INTEGER NOT NULL,
-vehical_class VARCHAR NOT NULL,
+vehicle_class VARCHAR NOT NULL,
 registration_number INTEGER UNIQUE NOT NULL,
 model_name VARCHAR NOT NULL UNIQUE,
 manufacturer VARCHAR NOT NULL,
