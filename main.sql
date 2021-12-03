@@ -25,7 +25,7 @@ FOREIGN KEY(company_id) REFERENCES company_branch MATCH SIMPLE
 CREATE TABLE car_detail
 (id SERIAL CHECK(id>0) PRIMARY KEY,
 car_name VARCHAR NOT NULL,
-vehicle_class VARCHAR NOT NULL,
+vehical_class VARCHAR NOT NULL,
 registration_number INTEGER UNIQUE NOT NULL,
 model_name VARCHAR NOT NULL UNIQUE,
 cost INTEGER NOT NULL,
@@ -65,8 +65,8 @@ home_address VARCHAR NOT NULL,
 phone_number INTEGER NOT NULL,
 date_of_birth timestamp,
 date_hired timestamp,
-driving_license_number INTEGER NOT NULL,
-rent_period INTEGER NOT NULL,
+driving_license_number VARCHAR NOT NULL,
+rent_period VARCHAR NOT NULL,
 car_id INTEGER UNIQUE NOT NULL,
 staff_id INTEGER NOT NULL,
 FOREIGN KEY(car_id) REFERENCES car_detail(id) MATCH SIMPLE
@@ -88,7 +88,7 @@ phone_number VARCHAR NOT NULL,
 date_of_birth timestamp,
 date_joined_the_company timestamp,
 job_title VARCHAR NOT NULL,
-salary INTEGER,
+salary VARCHAR,
 FOREIGN KEY(company_id) REFERENCES company_branch(id) MATCH SIMPLE
         ON UPDATE NO ACTION ON DELETE CASCADE);
 
