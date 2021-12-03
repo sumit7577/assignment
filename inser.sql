@@ -21,8 +21,8 @@ INSERT INTO phone_number (company_id,number) VALUES (8,+124946821);
 INSERT INTO phone_number (company_id,number) VALUES (1,+171459799);
 INSERT INTO phone_number (company_id,number) VALUES (2,+159288776);
 
-INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
-('Maruti Swift','C',66564428,'LXI','1197 cc',5,'Solid Fire Red',23,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
+INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,manufacturer,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
+('Maruti Swift','C',66564428,'LXI','Maruti Suzuki India Limited','1197 cc',5,'Solid Fire Red',23,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
 
 INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
 ('Maruti Swift','C',66564428,'VXI','1197 cc',5,'Solid Fire Red',23,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
