@@ -10,16 +10,16 @@ INSERT INTO company_branch (address,county) VALUES ('Mcminnville','OR');
 
 #example number 2 dont push the example data
 
-INSERT INTO phone_number (company_id,number) VALUES (1,19285647);
-INSERT INTO phone_number (company_id,number) VALUES (2,+140592335);
-INSERT INTO phone_number (company_id,number) VALUES (3,+162760184);
-INSERT INTO phone_number (company_id,number) VALUES (4,+199537819);
-INSERT INTO phone_number (company_id,number) VALUES (5,+162193403);
-INSERT INTO phone_number (company_id,number) VALUES (6,+133743115);
-INSERT INTO phone_number (company_id,number) VALUES (7,+130667522);
-INSERT INTO phone_number (company_id,number) VALUES (8,+124946821);
-INSERT INTO phone_number (company_id,number) VALUES (1,+171459799);
-INSERT INTO phone_number (company_id,number) VALUES (2,+159288776);
+INSERT INTO phone_number (company_id,number) VALUES (1,+19285649243);
+INSERT INTO phone_number (company_id,number) VALUES (1,+14059233540);
+INSERT INTO phone_number (company_id,number) VALUES (1,+16276018454);
+INSERT INTO phone_number (company_id,number) VALUES (1,+19953781998);
+INSERT INTO phone_number (company_id,number) VALUES (1,+16219340382);
+INSERT INTO phone_number (company_id,number) VALUES (1,+13374311575);
+INSERT INTO phone_number (company_id,number) VALUES (1,+13066752202);
+INSERT INTO phone_number (company_id,number) VALUES (1,+12494682189);
+INSERT INTO phone_number (company_id,number) VALUES (1,+17145979986);
+INSERT INTO phone_number (company_id,number) VALUES (1,+15928877670);
 
 INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
 ('Maruti Swift','C',66564428,'LXI','1197 cc',5,'Solid Fire Red',23,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
