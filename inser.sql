@@ -43,7 +43,7 @@ INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,ma
 ('Skoda Kushaq','B',89625742,'1.0 TSI Active','Škoda Auto','999 cc',5,'Honey Orange',17,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
 
 INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,manufacturer,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
-('Hyundai Alcazar','B',68572418,'Prestige 7-Seater','1999 cc',7,'Typhoon Silver',14,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
+('Hyundai Alcazar','B',68572418,'Prestige 7-Seater','Hyundai Motor India Ltd','1999 cc',7,'Typhoon Silver',14,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
 
 INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,manufacturer,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
 ('Hyundai Creta','B',55469824,'SX Opt Turbo Dualtone','Hyundai Motor India Ltd','1353 cc',5,'Typhoon Silver',16,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
