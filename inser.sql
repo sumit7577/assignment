@@ -10,46 +10,46 @@ INSERT INTO company_branch (address,county) VALUES ('Mcminnville','OR');
 
 #example number 2 dont push the example data
 
-INSERT INTO phone_number (company_id,number) VALUES (1,+19285649243);
-INSERT INTO phone_number (company_id,number) VALUES (1,+14059233540);
-INSERT INTO phone_number (company_id,number) VALUES (1,+16276018454);
-INSERT INTO phone_number (company_id,number) VALUES (1,+19953781998);
-INSERT INTO phone_number (company_id,number) VALUES (1,+16219340382);
-INSERT INTO phone_number (company_id,number) VALUES (1,+13374311575);
-INSERT INTO phone_number (company_id,number) VALUES (1,+13066752202);
-INSERT INTO phone_number (company_id,number) VALUES (1,+12494682189);
-INSERT INTO phone_number (company_id,number) VALUES (1,+17145979986);
-INSERT INTO phone_number (company_id,number) VALUES (1,+15928877670);
+INSERT INTO phone_number (company_id,number) VALUES (1,19285647);
+INSERT INTO phone_number (company_id,number) VALUES (2,+140592335);
+INSERT INTO phone_number (company_id,number) VALUES (3,+162760184);
+INSERT INTO phone_number (company_id,number) VALUES (4,+199537819);
+INSERT INTO phone_number (company_id,number) VALUES (5,+162193403);
+INSERT INTO phone_number (company_id,number) VALUES (6,+133743115);
+INSERT INTO phone_number (company_id,number) VALUES (7,+130667522);
+INSERT INTO phone_number (company_id,number) VALUES (8,+124946821);
+INSERT INTO phone_number (company_id,number) VALUES (1,+171459799);
+INSERT INTO phone_number (company_id,number) VALUES (2,+159288776);
 
-INSERT INTO car_detail (car_name,company_id,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
-('Maruti Swift',1,'C',66564428,'LXI','1197 cc',5,'Solid Fire Red',23,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
+INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
+('Maruti Swift','C',66564428,'LXI','1197 cc',5,'Solid Fire Red',23,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
 
-INSERT INTO car_detail (car_name,company_id,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
-('Hyundai i20',2,'C',78526389,'Sportz','1493 cc',5,'Starry Night',21,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
+INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
+('Hyundai i20','C',78526389,'Sportz','1493 cc',5,'Starry Night',21,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
 
-INSERT INTO car_detail (car_name,company_id,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
-('Skoda Kushaq',3,'B',89625742,'1.0 TSI Active','999 cc',5,'Honey Orange',17,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
+INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
+('Skoda Kushaq','B',89625742,'1.0 TSI Active','999 cc',5,'Honey Orange',17,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
 
-INSERT INTO car_detail (car_name,company_id,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
-('Hyundai Alcazar',4,'B',68572418,'Prestige 7-Seater','1999 cc',7,'Typhoon Silver',14,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
+INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
+('Hyundai Alcazar','B',68572418,'Prestige 7-Seater','1999 cc',7,'Typhoon Silver',14,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
 
-INSERT INTO car_detail (car_name,company_id,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
-('Hyundai Creta',5,'B',55469824,'SX Opt Turbo Dualtone','1353 cc',5,'Typhoon Silver',16,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
+INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
+('Hyundai Creta','B',55469824,'SX Opt Turbo Dualtone','1353 cc',5,'Typhoon Silver',16,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
 
-INSERT INTO car_detail (car_name,company_id,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
-('Mercedes-Benz GLA',6,'A',75412369,'220d','1950 cc',5,'Polar White',18,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
+INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
+('Mercedes-Benz GLA','A',75412369,'220d','1950 cc',5,'Polar White',18,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
 
-INSERT INTO car_detail (car_name,company_id,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
-('Audi Q5',7,'A',74125896,'Technology','1984 cc',5,'Floret Silver Metallicd',13,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
+INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
+('Audi Q5','A',74125896,'Technology','1984 cc',5,'Floret Silver Metallicd',13,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
 
-INSERT INTO car_detail (car_name,company_id,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
-('BMW X5',8,'A',75369512,'xDrive 30d Sport','2993 cc',5,'Mineral White',13,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
+INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
+('BMW X5','A',75369512,'xDrive 30d Sport','2993 cc',5,'Mineral White',13,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
 
-INSERT INTO car_detail (car_name,company_id,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
-('Aston Martin DBX',9,'A',92455542,'V8','3982 cc',5,'Red',7,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
+INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
+('Aston Martin DBX','A',92455542,'V8','3982 cc',5,'Red',7,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
 
-INSERT INTO car_detail (car_name,company_id,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
-('Lamborghini Aventador',10,'A',98002548,'SVJ','6498 cc',2,'Verde Mantis',7,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
+INSERT INTO car_detail (car_name,vehical_class,registration_number,model_name,engine_size,capacity,colour,current_milage,status,assigned,date_acquired,date_due) VALUES 
+('Lamborghini Aventador','A',98002548,'SVJ','6498 cc',2,'Verde Mantis',7,DEFAULT,'0','2021-10-11 18:13:06','2021-10-11 18:13:06');
 
 
 
